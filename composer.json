@@ -1,0 +1,13 @@
+{
+    "name": "russ/academos",
+    "type": "trial",
+    "authors": [
+        {
+            "name": "Ruslan Kladko",
+            "email": "rkladko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
