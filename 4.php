@@ -12,8 +12,6 @@
  */
 function carry(array $tests): array
 {
-    // todo: string to array
-    // todo: reverse operands, array_reverse()
 
     $tests = array_map(function ($v) {
         $figs = explode(' ', $v);
