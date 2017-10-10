@@ -13,7 +13,7 @@ function autocomplete(input, dictionary)
             if (v.indexOf(key) > -1) {
                 result.push(v);
             }
-        });
+        }(key));
         key = key.slice(0, key.length-1);
     }
     return result;
